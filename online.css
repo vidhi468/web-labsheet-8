@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #007BFF;
+    color: white;
+}
+
+/* Books */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .book-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
